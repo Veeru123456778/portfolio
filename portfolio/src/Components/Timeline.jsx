@@ -114,7 +114,7 @@ const Timeline = () => {
     </div>
     <div className='grid grid-cols-3 gap-2 items-center justify-center mx-2 sm:visible'>
       {project.tags.map((tag, tagIndex) => (
-        <p key={tagIndex} className={`text-${textColors[tagIndex % textColors.length]} p-1 border-none rounded-md`}>
+        <p key={tagIndex} className={`text-${textColors[tagIndex % textColors.length]}  p-1 border-none rounded-md`}>
           {tag}
         </p>
       ))}

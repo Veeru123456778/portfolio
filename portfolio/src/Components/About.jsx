@@ -2,7 +2,7 @@ import React from 'react'
 import profile from '../assets/profilepic.webp';
 const About = () => {
   return (
-    <section id='about' className='about'>
+    <section id='about' className='about mb-40 sm:mb-0'>
        <h1 className='flex justify-center'><pre className='text-5xl font-bold '>$man <span className='bg-gradient-to-r from-cyan to-blue  bg-clip-text text-transparent'>VARUN</span></pre></h1>
        <div className='flex flex-col sm:flex sm:flex-row justify-around items-center mt-10 gap-5 sm:gap-0'>
       <img src= {profile} className='h-60 w-60 rounded-full relative border-2 shadow-md hover:shadow-slate-200'/>

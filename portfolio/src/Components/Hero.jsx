@@ -73,7 +73,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-[80vh] sm:h-screen`}>
+    <section className={`relative w-full h-screen`}>
       <div
         className={`absolute sm:inset-0 max-w-7xl ${styles.paddingX} flex flex-col-reverse sm:flex-row  gap-10 items-center`}
       >

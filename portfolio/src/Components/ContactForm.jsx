@@ -161,7 +161,7 @@ const RegistrationForm = () => {
     e.preventDefault();
     try {
       // Send form data to the backend
-      await axios.post('http://localhost:3001/api/send-mail', formData); // Updated URL
+      await axios.post('https://portfolio-backend-gules-theta.vercel.app/api/send-mail', formData); // Updated URL
       alert('Form submitted successfully!');
     } catch (error) {
       console.error('Error sending email:', error);
