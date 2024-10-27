@@ -1,0 +1,15 @@
+.vertical-timeline::before {
+z-index: 40;
+animation: ease-in-out 3s  2s infinite reverse ;
+}
+
+.slick-dots li button:before {
+    color: white !important; /* Change dot color to white */
+    opacity: 0.75 !important; /* Adjust opacity if needed */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white !important; /* Active dot color */
+    opacity: 1 !important; /* Ensure active dot is fully visible */
+  }
+  
