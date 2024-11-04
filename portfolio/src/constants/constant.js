@@ -1,6 +1,3 @@
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
 import reactIcon from "../assets/react-icon.svg";
 import bootstrapIcon from "../assets/bootstrap-icon.svg";
 import canvaIcon from "../assets/canva-icon.svg";
