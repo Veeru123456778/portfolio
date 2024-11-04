@@ -5,9 +5,8 @@ import Contact from './Components/Contact.jsx'
 import Project from './Components/Project.jsx'
 import Navbar from './Components/Navbar.jsx';
 import Hero from './Components/Hero.jsx';
-import Video from './Components/video.jsx';
 import Technologies from './Components/Technologies.jsx';
-import Timeline from './Components/Timeline.jsx';
+
 const App = () => {
   return (
     <BrowserRouter>
