@@ -38,5 +38,11 @@ module.exports = {
       // },
     },
   },
+  safelist:[
+    'text-red-500',
+    'text-green-500',
+    'text-white',
+    'text-blue'
+  ],
   plugins: [],
 };
